@@ -1,0 +1,14 @@
+server:
+  port: ${PORT:8080}
+  servlet:
+    context-path: /api/v1
+springfox:
+  documentation:
+    swaggerUi:
+      baseUrl: /api/v1
+    openApi:
+      v3:
+        path: /documentation/v3/api-docs
+    swagger:
+      v2:
+        path: /documentation/v2/api-docs
